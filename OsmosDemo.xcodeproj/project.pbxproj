@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0072305230291E6CDDFF4407 /* AdFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26520673756F91F106D667AA /* AdFeedView.swift */; };
+		02F504F7D3E2D51E9BD313CC /* VisibilityCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1ECC09E8D0012E38AF67C /* VisibilityCalculator.swift */; };
+		06740CF5E32E291EE5F5DF61 /* OsmosSDKAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DEFE4FE713B81533565E6F /* OsmosSDKAdapter.swift */; };
+		0BDBBB19C780FB4CC40ADF57 /* BannerImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE407502689A39683BFFF8 /* BannerImageLoader.swift */; };
+		0C9288B85DF911B5AF51E081 /* AdConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA456ED4EA937CADF3A342C1 /* AdConfiguration.swift */; };
+		17E3EEE5081696F9903E70F5 /* BannerImageLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7955D2F97554486BB00F63B /* BannerImageLoaderTests.swift */; };
+		1F648C785E8B0F83A27DB6A5 /* FeedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53AC434925DDC93E59D5ADC /* FeedStyle.swift */; };
+		20DB8A593E252C4D055670A2 /* OsmosDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDF93CF9F7B816522DAF23 /* OsmosDemoApp.swift */; };
+		30A51084398A8C3AFB66131E /* AdFeedViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19647402F4B353EECD2AAF /* AdFeedViewModelTests.swift */; };
+		316D6C2DF0DE432276140FBD /* BannerFramesPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AECA76B38823452CB2B58F /* BannerFramesPreference.swift */; };
+		34C40920901B955E72BC697C /* AnalyticsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B91F4AC258F16BE0B42904 /* AnalyticsStore.swift */; };
+		3893054DE4DA65EBE533FF37 /* DemoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E45F7B3198DC814BE370D4E /* DemoSession.swift */; };
+		38B626348DA0E9751059CD5D /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D54F0389009B8CF1D1DFE7C /* BannerAdView.swift */; };
+		4B04E78572CD26D7719AF8D9 /* AdFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A15A2C8905892433C0938 /* AdFeedViewModel.swift */; };
+		4CE45CEE176DADB2A6CA149B /* BannerResponseParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D25EF3E61432345FBC79FF /* BannerResponseParserTests.swift */; };
+		50021527E60600AFDBBAAED0 /* FixtureImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76ED7D6B6C394A6CE4D23A /* FixtureImageLoader.swift */; };
+		500C6B6DAE48694A0FBE2974 /* AdServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7403F41E0D603E58F491C5A /* AdServices.swift */; };
+		592D24884DD29FC319ECFD1A /* FixtureAdService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012BD99DA4206A0E536D3DA /* FixtureAdService.swift */; };
+		5C0F94E0531DFE971D92221D /* DemoScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF57E052F423AD50A6C8E7D /* DemoScenario.swift */; };
+		63412324399C0117E78E9402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EC0A5F2070F8401E191418 /* Assets.xcassets */; };
+		6AB1DF405CDEEE6A5D85BD7D /* AdEventTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB4773A56B5FBF6F4EFDF3 /* AdEventTrackerTests.swift */; };
+		7B1AC2818F610995177ADB34 /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5FB2809CDF38FB83B4020 /* BannerAd.swift */; };
+		84C498CF43B551F6F1D252DF /* DiagnosticsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB27C7203F175C5F923AFF /* DiagnosticsViews.swift */; };
+		9531499BC2635BDCF67B5D0F /* FeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80553DF593B6DC50B693D0DF /* FeedUITests.swift */; };
+		ACB515ABF483CC122364D329 /* ContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F2EB929F274781A93EC4 /* ContractTests.swift */; };
+		C9AB1FF249324CCD0947D472 /* VisibilityCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E01CC872AA6F55CE4E8B17E /* VisibilityCalculatorTests.swift */; };
+		D9BFCAA0ADE245FFDAA3D6DE /* AdEventTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB884CBEF79D1FD639082C5 /* AdEventTracker.swift */; };
+		EC5222245B24615087ACAD8F /* BannerResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C07A806E7484EACA2509E /* BannerResponseParser.swift */; };
+		EC57F742B572A0C094A927B6 /* osmos in Frameworks */ = {isa = PBXBuildFile; productRef = 95A96FF47CBF6B67F314392F /* osmos */; };
+		FFB8D613A859606D8F14B462 /* TestDoubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5471455580869878F25090B0 /* TestDoubles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35ECB5C46656A696BB732084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BAA702001366E94B76EF246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0FEEDC43444FBBF1C5A3AC;
+			remoteInfo = OsmosDemo;
+		};
+		5D71C49FCA4894391B6F1017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BAA702001366E94B76EF246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0FEEDC43444FBBF1C5A3AC;
+			remoteInfo = OsmosDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038A15A2C8905892433C0938 /* AdFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdFeedViewModel.swift; sourceTree = "<group>"; };
+		0B0BF784AE26DD546FB7F1F1 /* OsmosDemoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OsmosDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BFB27C7203F175C5F923AFF /* DiagnosticsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsViews.swift; sourceTree = "<group>"; };
+		11B91F4AC258F16BE0B42904 /* AnalyticsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsStore.swift; sourceTree = "<group>"; };
+		14CB4773A56B5FBF6F4EFDF3 /* AdEventTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdEventTrackerTests.swift; sourceTree = "<group>"; };
+		22B1ECC09E8D0012E38AF67C /* VisibilityCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibilityCalculator.swift; sourceTree = "<group>"; };
+		26520673756F91F106D667AA /* AdFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdFeedView.swift; sourceTree = "<group>"; };
+		3D54F0389009B8CF1D1DFE7C /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		44D25EF3E61432345FBC79FF /* BannerResponseParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerResponseParserTests.swift; sourceTree = "<group>"; };
+		5471455580869878F25090B0 /* TestDoubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDoubles.swift; sourceTree = "<group>"; };
+		58EC0A5F2070F8401E191418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB884CBEF79D1FD639082C5 /* AdEventTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdEventTracker.swift; sourceTree = "<group>"; };
+		76D3829600FF82D329E33E6B /* OsmosDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OsmosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E45F7B3198DC814BE370D4E /* DemoSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSession.swift; sourceTree = "<group>"; };
+		80553DF593B6DC50B693D0DF /* FeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUITests.swift; sourceTree = "<group>"; };
+		9E01CC872AA6F55CE4E8B17E /* VisibilityCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibilityCalculatorTests.swift; sourceTree = "<group>"; };
+		A7403F41E0D603E58F491C5A /* AdServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdServices.swift; sourceTree = "<group>"; };
+		AA456ED4EA937CADF3A342C1 /* AdConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConfiguration.swift; sourceTree = "<group>"; };
+		B2D80D4C4491375BFF585852 /* OsmosDemoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OsmosDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7955D2F97554486BB00F63B /* BannerImageLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerImageLoaderTests.swift; sourceTree = "<group>"; };
+		B8CE407502689A39683BFFF8 /* BannerImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerImageLoader.swift; sourceTree = "<group>"; };
+		C1AECA76B38823452CB2B58F /* BannerFramesPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerFramesPreference.swift; sourceTree = "<group>"; };
+		CC06F2EB929F274781A93EC4 /* ContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractTests.swift; sourceTree = "<group>"; };
+		CC19647402F4B353EECD2AAF /* AdFeedViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdFeedViewModelTests.swift; sourceTree = "<group>"; };
+		CE76ED7D6B6C394A6CE4D23A /* FixtureImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureImageLoader.swift; sourceTree = "<group>"; };
+		D53AC434925DDC93E59D5ADC /* FeedStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStyle.swift; sourceTree = "<group>"; };
+		DB7C07A806E7484EACA2509E /* BannerResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerResponseParser.swift; sourceTree = "<group>"; };
+		DEA5FB2809CDF38FB83B4020 /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		DEDDF93CF9F7B816522DAF23 /* OsmosDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsmosDemoApp.swift; sourceTree = "<group>"; };
+		E012BD99DA4206A0E536D3DA /* FixtureAdService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureAdService.swift; sourceTree = "<group>"; };
+		EFF57E052F423AD50A6C8E7D /* DemoScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScenario.swift; sourceTree = "<group>"; };
+		F6DEFE4FE713B81533565E6F /* OsmosSDKAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsmosSDKAdapter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE04CA4233BA21004668B366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57F742B572A0C094A927B6 /* osmos in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066AB851C492FA291969F9F9 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6BB884CBEF79D1FD639082C5 /* AdEventTracker.swift */,
+				11B91F4AC258F16BE0B42904 /* AnalyticsStore.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		08595D75560B288CB8D0A145 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE407502689A39683BFFF8 /* BannerImageLoader.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0FF429301B8BDEEC662D1DAE /* Diagnostics */ = {
+			isa = PBXGroup;
+			children = (
+				0BFB27C7203F175C5F923AFF /* DiagnosticsViews.swift */,
+			);
+			path = Diagnostics;
+			sourceTree = "<group>";
+		};
+		1150FB769F6037960A50B1BF /* AdFeed */ = {
+			isa = PBXGroup;
+			children = (
+				26520673756F91F106D667AA /* AdFeedView.swift */,
+				038A15A2C8905892433C0938 /* AdFeedViewModel.swift */,
+				3D54F0389009B8CF1D1DFE7C /* BannerAdView.swift */,
+				D53AC434925DDC93E59D5ADC /* FeedStyle.swift */,
+			);
+			path = AdFeed;
+			sourceTree = "<group>";
+		};
+		119CC81C2A511AC53A62486B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A7403F41E0D603E58F491C5A /* AdServices.swift */,
+				066AB851C492FA291969F9F9 /* Analytics */,
+				C53ECDB2CFFF6E29405D450B /* Fixtures */,
+				08595D75560B288CB8D0A145 /* Images */,
+				A7BF0C686B7C7DB693755B82 /* Osmos */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F1DC3F85F39752395F9B9CF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				AA456ED4EA937CADF3A342C1 /* AdConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		1F59211CB911DBBA0AA7299C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				14CB4773A56B5FBF6F4EFDF3 /* AdEventTrackerTests.swift */,
+				CC19647402F4B353EECD2AAF /* AdFeedViewModelTests.swift */,
+				B7955D2F97554486BB00F63B /* BannerImageLoaderTests.swift */,
+				44D25EF3E61432345FBC79FF /* BannerResponseParserTests.swift */,
+				CC06F2EB929F274781A93EC4 /* ContractTests.swift */,
+				5471455580869878F25090B0 /* TestDoubles.swift */,
+				9E01CC872AA6F55CE4E8B17E /* VisibilityCalculatorTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		370350D71B6323CA21D8BB80 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				80553DF593B6DC50B693D0DF /* FeedUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		3745D2F6469FE03B3B9BF0CF /* Visibility */ = {
+			isa = PBXGroup;
+			children = (
+				C1AECA76B38823452CB2B58F /* BannerFramesPreference.swift */,
+				22B1ECC09E8D0012E38AF67C /* VisibilityCalculator.swift */,
+			);
+			path = Visibility;
+			sourceTree = "<group>";
+		};
+		3D58BD4F8D14BA68C2169883 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5FB2809CDF38FB83B4020 /* BannerAd.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41E7B137B6EF62C61D58DED4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7E45F7B3198DC814BE370D4E /* DemoSession.swift */,
+				DEDDF93CF9F7B816522DAF23 /* OsmosDemoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		594F00F79FA21190DA921E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D3829600FF82D329E33E6B /* OsmosDemo.app */,
+				0B0BF784AE26DD546FB7F1F1 /* OsmosDemoTests.xctest */,
+				B2D80D4C4491375BFF585852 /* OsmosDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF18322A040216A9D1802E5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1150FB769F6037960A50B1BF /* AdFeed */,
+				0FF429301B8BDEEC662D1DAE /* Diagnostics */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A22C378388D61D327C906FE8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3745D2F6469FE03B3B9BF0CF /* Visibility */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A7BF0C686B7C7DB693755B82 /* Osmos */ = {
+			isa = PBXGroup;
+			children = (
+				DB7C07A806E7484EACA2509E /* BannerResponseParser.swift */,
+				F6DEFE4FE713B81533565E6F /* OsmosSDKAdapter.swift */,
+			);
+			path = Osmos;
+			sourceTree = "<group>";
+		};
+		BF914D1DBC1820EC25F1F8EE = {
+			isa = PBXGroup;
+			children = (
+				CCF794AD6E5A87035E559842 /* OsmosDemo */,
+				1F59211CB911DBBA0AA7299C /* Tests */,
+				370350D71B6323CA21D8BB80 /* UITests */,
+				594F00F79FA21190DA921E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53ECDB2CFFF6E29405D450B /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				EFF57E052F423AD50A6C8E7D /* DemoScenario.swift */,
+				E012BD99DA4206A0E536D3DA /* FixtureAdService.swift */,
+				CE76ED7D6B6C394A6CE4D23A /* FixtureImageLoader.swift */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		CCF794AD6E5A87035E559842 /* OsmosDemo */ = {
+			isa = PBXGroup;
+			children = (
+				41E7B137B6EF62C61D58DED4 /* App */,
+				1F1DC3F85F39752395F9B9CF /* Configuration */,
+				6FF18322A040216A9D1802E5 /* Features */,
+				3D58BD4F8D14BA68C2169883 /* Models */,
+				F72F1C709619ECFD3870E5E3 /* Resources */,
+				119CC81C2A511AC53A62486B /* Services */,
+				A22C378388D61D327C906FE8 /* Shared */,
+			);
+			path = OsmosDemo;
+			sourceTree = "<group>";
+		};
+		F72F1C709619ECFD3870E5E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58EC0A5F2070F8401E191418 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B1E88E427F22A348986561 /* OsmosDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAE984212664E5D2023F025 /* Build configuration list for PBXNativeTarget "OsmosDemoTests" */;
+			buildPhases = (
+				5938EF7199003A23F4E7F548 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49DC6F90F2430D4B62646D3E /* PBXTargetDependency */,
+			);
+			name = OsmosDemoTests;
+			packageProductDependencies = (
+			);
+			productName = OsmosDemoTests;
+			productReference = 0B0BF784AE26DD546FB7F1F1 /* OsmosDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF45F10DE748520599B24FE1 /* OsmosDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CCFB04D4364FA235F92F20 /* Build configuration list for PBXNativeTarget "OsmosDemoUITests" */;
+			buildPhases = (
+				02774E147DFB3BA1BDD3272D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A91F84DE3A519EBFB98E3E6 /* PBXTargetDependency */,
+			);
+			name = OsmosDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = OsmosDemoUITests;
+			productReference = B2D80D4C4491375BFF585852 /* OsmosDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DA0FEEDC43444FBBF1C5A3AC /* OsmosDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF318AE55C42ECC594B48BB /* Build configuration list for PBXNativeTarget "OsmosDemo" */;
+			buildPhases = (
+				22FEE58D0C948626B5904D75 /* Sources */,
+				97E3339FDE837AAF98F35542 /* Resources */,
+				BE04CA4233BA21004668B366 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsmosDemo;
+			packageProductDependencies = (
+				95A96FF47CBF6B67F314392F /* osmos */,
+			);
+			productName = OsmosDemo;
+			productReference = 76D3829600FF82D329E33E6B /* OsmosDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BAA702001366E94B76EF246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A5B1E88E427F22A348986561 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					BF45F10DE748520599B24FE1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA0FEEDC43444FBBF1C5A3AC;
+					};
+					DA0FEEDC43444FBBF1C5A3AC = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E427A26E2F8147FB0952BC76 /* Build configuration list for PBXProject "OsmosDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BF914D1DBC1820EC25F1F8EE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2498B0219BA6374FA9E33C78 /* XCRemoteSwiftPackageReference "osmos-ios-sdk-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 594F00F79FA21190DA921E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA0FEEDC43444FBBF1C5A3AC /* OsmosDemo */,
+				A5B1E88E427F22A348986561 /* OsmosDemoTests */,
+				BF45F10DE748520599B24FE1 /* OsmosDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97E3339FDE837AAF98F35542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63412324399C0117E78E9402 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02774E147DFB3BA1BDD3272D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531499BC2635BDCF67B5D0F /* FeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FEE58D0C948626B5904D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9288B85DF911B5AF51E081 /* AdConfiguration.swift in Sources */,
+				D9BFCAA0ADE245FFDAA3D6DE /* AdEventTracker.swift in Sources */,
+				0072305230291E6CDDFF4407 /* AdFeedView.swift in Sources */,
+				4B04E78572CD26D7719AF8D9 /* AdFeedViewModel.swift in Sources */,
+				500C6B6DAE48694A0FBE2974 /* AdServices.swift in Sources */,
+				34C40920901B955E72BC697C /* AnalyticsStore.swift in Sources */,
+				7B1AC2818F610995177ADB34 /* BannerAd.swift in Sources */,
+				38B626348DA0E9751059CD5D /* BannerAdView.swift in Sources */,
+				316D6C2DF0DE432276140FBD /* BannerFramesPreference.swift in Sources */,
+				0BDBBB19C780FB4CC40ADF57 /* BannerImageLoader.swift in Sources */,
+				EC5222245B24615087ACAD8F /* BannerResponseParser.swift in Sources */,
+				5C0F94E0531DFE971D92221D /* DemoScenario.swift in Sources */,
+				3893054DE4DA65EBE533FF37 /* DemoSession.swift in Sources */,
+				84C498CF43B551F6F1D252DF /* DiagnosticsViews.swift in Sources */,
+				1F648C785E8B0F83A27DB6A5 /* FeedStyle.swift in Sources */,
+				592D24884DD29FC319ECFD1A /* FixtureAdService.swift in Sources */,
+				50021527E60600AFDBBAAED0 /* FixtureImageLoader.swift in Sources */,
+				20DB8A593E252C4D055670A2 /* OsmosDemoApp.swift in Sources */,
+				06740CF5E32E291EE5F5DF61 /* OsmosSDKAdapter.swift in Sources */,
+				02F504F7D3E2D51E9BD313CC /* VisibilityCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5938EF7199003A23F4E7F548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB1DF405CDEEE6A5D85BD7D /* AdEventTrackerTests.swift in Sources */,
+				30A51084398A8C3AFB66131E /* AdFeedViewModelTests.swift in Sources */,
+				17E3EEE5081696F9903E70F5 /* BannerImageLoaderTests.swift in Sources */,
+				4CE45CEE176DADB2A6CA149B /* BannerResponseParserTests.swift in Sources */,
+				ACB515ABF483CC122364D329 /* ContractTests.swift in Sources */,
+				FFB8D613A859606D8F14B462 /* TestDoubles.swift in Sources */,
+				C9AB1FF249324CCD0947D472 /* VisibilityCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49DC6F90F2430D4B62646D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0FEEDC43444FBBF1C5A3AC /* OsmosDemo */;
+			targetProxy = 35ECB5C46656A696BB732084 /* PBXContainerItemProxy */;
+		};
+		6A91F84DE3A519EBFB98E3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0FEEDC43444FBBF1C5A3AC /* OsmosDemo */;
+			targetProxy = 5D71C49FCA4894391B6F1017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34F3C49C90036D949BF26F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmos.assignment.OsmosDemoTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsmosDemo.app/OsmosDemo";
+			};
+			name = Release;
+		};
+		35BE8291BF60D2A177045A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E83E41282076B2D98AC9D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmos.assignment.OsmosDemoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsmosDemo;
+			};
+			name = Debug;
+		};
+		5D364E7B82046821FF31AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OsmosDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmos.assignment.demo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83B85B2CB565D65B1FE34368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OsmosDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmos.assignment.demo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92323D165EADFE1BD3982EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmos.assignment.OsmosDemoTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsmosDemo.app/OsmosDemo";
+			};
+			name = Debug;
+		};
+		CDCC0455DCADA2B67AA3241B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmos.assignment.OsmosDemoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsmosDemo;
+			};
+			name = Release;
+		};
+		E475D82D87D248E61B0C748F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EAE984212664E5D2023F025 /* Build configuration list for PBXNativeTarget "OsmosDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92323D165EADFE1BD3982EAA /* Debug */,
+				34F3C49C90036D949BF26F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0CCFB04D4364FA235F92F20 /* Build configuration list for PBXNativeTarget "OsmosDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E83E41282076B2D98AC9D29 /* Debug */,
+				CDCC0455DCADA2B67AA3241B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E427A26E2F8147FB0952BC76 /* Build configuration list for PBXProject "OsmosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E475D82D87D248E61B0C748F /* Debug */,
+				35BE8291BF60D2A177045A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBF318AE55C42ECC594B48BB /* Build configuration list for PBXNativeTarget "OsmosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B85B2CB565D65B1FE34368 /* Debug */,
+				5D364E7B82046821FF31AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2498B0219BA6374FA9E33C78 /* XCRemoteSwiftPackageReference "osmos-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onlinesales-ai/osmos-ios-sdk-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95A96FF47CBF6B67F314392F /* osmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2498B0219BA6374FA9E33C78 /* XCRemoteSwiftPackageReference "osmos-ios-sdk-spm" */;
+			productName = osmos;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3BAA702001366E94B76EF246 /* Project object */;
+}

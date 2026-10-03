@@ -1,0 +1,15 @@
+{
+  "originHash" : "00bab9a756a1dd554433fc9711ce72b627aed641153215fcff6da9c59a73425b",
+  "pins" : [
+    {
+      "identity" : "osmos-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onlinesales-ai/osmos-ios-sdk-spm.git",
+      "state" : {
+        "revision" : "4ee37e1b4bd615e7a9546da17581cf66f6672d57",
+        "version" : "2.6.4"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,69 @@
+name: OsmosDemo
+options:
+  bundleIdPrefix: com.osmos.assignment
+  deploymentTarget:
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+packages:
+  Osmos:
+    url: https://github.com/onlinesales-ai/osmos-ios-sdk-spm.git
+    exactVersion: 2.6.4
+targets:
+  OsmosDemo:
+    type: application
+    platform: iOS
+    sources:
+      - path: OsmosDemo
+        excludes: [Info.plist]
+    dependencies:
+      - package: Osmos
+        product: osmos
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.osmos.assignment.demo
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: OsmosDemo/Info.plist
+  OsmosDemoTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests]
+    dependencies:
+      - target: OsmosDemo
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+  OsmosDemoUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: OsmosDemo
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  OsmosDemo:
+    build:
+      targets:
+        OsmosDemo: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      environmentVariables:
+        OSMOS_TEST_MODE: "1"
+      targets:
+        - OsmosDemoTests
+        - OsmosDemoUITests

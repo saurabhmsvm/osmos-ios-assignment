@@ -1,0 +1,21 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcresult/
+*.log
+*.ipa
+*.xcarchive/
+.swiftpm/
+SDKProbe.json
+
+# Local credentials and signing material.
+.env
+.env.*
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
